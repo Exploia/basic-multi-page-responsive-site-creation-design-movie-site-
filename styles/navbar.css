@@ -87,8 +87,8 @@ nav .fa {
     position: absolute;
     top: 0;
     right: 0;
-    width: 35%;
-    background-color: red;
+    width: 40;
+    background-color: #383838;
     padding: 10px;
     height: 100vh;
     z-index: 99;
