@@ -13,13 +13,23 @@
   width: 75%;
 }
 
+.main-content p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
 .main-content h1 {
   font-size: 3rem;
 }
 
-.main-content p {
-  font-size: 1.2rem;
-  margin: 0.5rem 0;
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .main-content h1 {
+    font-size: 2rem;
+  }
+  .main-content p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
 }
 
 .gradient-btn {
